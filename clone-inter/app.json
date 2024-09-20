@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "clone-inter",
+    "slug": "clone-inter",
+    "scheme": "your-app-scheme",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-inter.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo-inter.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo-inter.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.susankarin.cloneinter"
+    },
+    "web": {
+      "favicon": "./assets/logo-inter.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1e282acf-514f-404b-bcf0-fe7b5ec899a5"
+      }
+    }
+  }
+}
